@@ -1,0 +1,26 @@
+{
+  "name": "fancytodolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "TAILWIND_MODE=watch postcss css/tailwind.css -o public/build/build.css --watch",
+    "build": "postcss css/tailwind.css -o public/build/tailwind.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iLuvYouMegaHomo/FancyTodoList.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iLuvYouMegaHomo/FancyTodoList/issues"
+  },
+  "homepage": "https://github.com/iLuvYouMegaHomo/FancyTodoList#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
